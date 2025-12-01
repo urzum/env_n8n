@@ -13,6 +13,7 @@ DB_POSTGRESDB_PASSWORD=TDFe9kCNxQDvoBvy
 ############################################
 QUEUE_BULL_REDIS_HOST=n8n_redis
 QUEUE_BULL_REDIS_PORT=6379
+QUEUE_BULL_REDIS_DB=2
 QUEUE_BULL_REDIS_PASSWORD=TDFe9kCNxQDvoBvy
 
 ############################################
@@ -68,7 +69,7 @@ N8N_BLOCK_ENV_ACCESS_IN_NODE=false
 # 🧠 Funções / Bibliotecas permitidas (Code node)
 ############################################
 NODE_ENV=production
-NODE_FUNCTION_ALLOW_EXTERNAL=moment,lodash,moment-with-locales
+NODE_FUNCTION_ALLOW_EXTERNAL=moment,lodash
 
 ############################################
 # 🪵 Logs
